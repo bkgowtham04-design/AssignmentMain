@@ -8,6 +8,7 @@ const tasks = [
   { id: 5, day: "Assignment 05", title: "Effects & Hooks", desc: "Synchronize components with external systems using hooks.", path: "/day5", color: "from-amber-500 to-orange-500 shadow-amber-500/10 text-amber-700 bg-amber-50 border-amber-100" },
   { id: 6, day: "Assignment 06", title: "Context & Router", desc: "Handle global state share pipelines and app page pathways.", path: "/day6", color: "from-fuchsia-500 to-pink-500 shadow-fuchsia-500/10 text-fuchsia-750 bg-fuchsia-50 border-fuchsia-100" },
   { id: 7, day: "Assignment 07", title: "State Mutability", desc: "Observe object and array mutations in parent/child environments.", path: "/day7", color: "from-violet-500 to-fuchsia-500 shadow-violet-500/10 text-violet-700 bg-violet-50 border-violet-100" },
+  { id: 8, day: "Assignment 08", title: "State Mutability", desc: "Observe object and array mutations in parent/child environments.", path: "/day8", color: "from-violet-500 to-fuchsia-500 shadow-violet-500/10 text-violet-700 bg-violet-50 border-violet-100" },
 ];
 
 const Task = () => {

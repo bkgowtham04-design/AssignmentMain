@@ -28,6 +28,8 @@ import Day5Home from '../assign/day5/Day5Home';
 import Day6App from '../assign/day6/App';
 import Day7AppRoute from '../assign/day7/routes/AppRoutes';
 
+import Navbarm from '../assign/day8/Navbarm';
+
 
 const AppRoutes = () => {
   return (
@@ -63,6 +65,10 @@ const AppRoutes = () => {
         {/* Day 6 route */}
         <Route path='/day6/*' element={<Day6App/>} />
         <Route path='/day7/*' element={<Day7AppRoute/>}/>
+
+        <Route path='/day8/*' element={<Navbarm/>}/>
+
+        
       </Routes>
     </>
   )
