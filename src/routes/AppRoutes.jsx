@@ -30,6 +30,7 @@ import Day7AppRoute from '../assign/day7/routes/AppRoutes';
 
 import Navbarm from '../assign/day8/Navbarm';
 import Navbarr from '../assign/day9/Navbarr';
+import Navbart from '../assign/day10/Navbart';
 
 
 const AppRoutes = () => {
@@ -69,6 +70,7 @@ const AppRoutes = () => {
 
         <Route path='/day8/*' element={<Navbarm/>}/>
        <Route path='/day9/*' element={<Navbarr/>}/>
+       <Route path='/day10/*' element={<Navbart/>}/>
 
 
 

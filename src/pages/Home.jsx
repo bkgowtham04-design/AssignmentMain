@@ -8,7 +8,7 @@ const Home = () => {
   const userRole = "Student & Full Stack Developer";
 
   const stats = [
-    { label: "Total Tasks", value: "9 Assignments", description: "Structured React learning modules" },
+    { label: "Total Tasks", value: "10 Assignments", description: "Structured React learning modules" },
     { label: "Completion Status", value: "In Progress", description: "Completing daily react labs" },
     { label: "Framework Version", value: "React 19 & Vite", description: "Modern React setup with SPA routing" }
   ];
