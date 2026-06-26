@@ -11,7 +11,8 @@ const tasks = [
   { id: 8, day: "Assignment 08", title: "Forms & Validation", desc: "Handle React forms, inputs, and validation states.", path: "/day8" },
   { id: 9, day: "Assignment 09", title: "HOC (Higher Order Components)", desc: "Learn to build and use Higher Order Components to reuse component logic across views.", path: "/day9" },
   { id: 10, day: "Assignment 10", title: "Form Handling", desc: "Manage advanced form controls, validation schemas, and submit hooks.", path: "/day10" },
- { id: 11, day: "Assignment 11", title: "Form Handling", desc: "Manage advanced form controls, validation schemas, and submit hooks.", path: "/day11" }
+ { id: 11, day: "Assignment 11", title: "Form Handling", desc: "Manage advanced form controls, validation schemas, and submit hooks.", path: "/day11" },
+  { id: 12, day: "Assignment 12", title: "Form Handling", desc: "Manage advanced form controls, validation schemas, and submit hooks.", path: "/day12" }
 ];
 
 const Task = () => {
