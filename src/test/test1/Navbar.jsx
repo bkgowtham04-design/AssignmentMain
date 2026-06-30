@@ -3,6 +3,13 @@ import { Link, Route, Routes } from 'react-router-dom'
 import Registerss from './task1/Registerss'
 import Empman from './task2/Empman'
 import Proman from './task3/Proman'
+import Regform from './test4/Regform'
+import Conbook from './task5/Conbook'
+import Courseenroll from './task6/Courseenroll'
+import Libbook from './task7/Libbook'
+import Vehiclereg from './task8/Vehiclereg'
+import Patientreg from './task9/Patientreg'
+import Jobportal from './task10/Jobportal'
 
 const Navbar = () => {
   return (
@@ -17,8 +24,8 @@ const Navbar = () => {
         <Link to="/test1/task3" className="text-zinc-500 hover:text-zinc-950 transition-colors duration-200">
           TASK 3
         </Link>
-        <Link to="/test1/task4" className="text-zinc-500 hover:text-zinc-950 transition-colors duration-200">
-          TASK 4
+        <Link to="/test1/test4" className="text-zinc-500 hover:text-zinc-950 transition-colors duration-200">
+          TEST 4
         </Link>
         <Link to="/test1/task5" className="text-zinc-500 hover:text-zinc-950 transition-colors duration-200">
           TASK 5
@@ -45,13 +52,13 @@ const Navbar = () => {
         <Route path="task1" element={<Registerss />} />
         <Route path="task2" element={<Empman />} />
         <Route path="task3" element={<Proman />} />
-        <Route path="task4" element={<div className="p-8 text-center text-zinc-400 text-sm italic">Write your Task 4 code here</div>} />
-        <Route path="task5" element={<div className="p-8 text-center text-zinc-400 text-sm italic">Write your Task 5 code here</div>} />
-        <Route path="task6" element={<div className="p-8 text-center text-zinc-400 text-sm italic">Write your Task 6 code here</div>} />
-        <Route path="task7" element={<div className="p-8 text-center text-zinc-400 text-sm italic">Write your Task 7 code here</div>} />
-        <Route path="task8" element={<div className="p-8 text-center text-zinc-400 text-sm italic">Write your Task 8 code here</div>} />
-        <Route path="task9" element={<div className="p-8 text-center text-zinc-400 text-sm italic">Write your Task 9 code here</div>} />
-        <Route path="task10" element={<div className="p-8 text-center text-zinc-400 text-sm italic">Write your Task 10 code here</div>} />
+        <Route path="test4" element={<Regform />} />
+        <Route path="task5" element={<Conbook />} />
+        <Route path="task6" element={<Courseenroll />} />
+        <Route path="task7" element={<Libbook />} />
+        <Route path="task8" element={<Vehiclereg />} />
+        <Route path="task9" element={<Patientreg />} />
+        <Route path="task10" element={<Jobportal />} />
       </Routes>
     </>
   )
