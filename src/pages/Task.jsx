@@ -13,7 +13,8 @@ const tasks = [
   { id: 10, day: "Assignment 10", title: "Form Handling", desc: "Manage advanced form controls, validation schemas, and submit hooks.", path: "/day10" },
   { id: 11, day: "Assignment 11", title: "Form Handling", desc: "Manage advanced form controls, validation schemas, and submit hooks.", path: "/day11" },
   { id: 12, day: "Assignment 12", title: "Form Handling", desc: "Manage advanced form controls, validation schemas, and submit hooks.", path: "/day12" },
-  { id: 13, day: "Assignment 13", title: "Hooks & Effects", desc: "Understand component mounting side-effects and cleanup lifecycles.", path: "/day13" }
+  { id: 13, day: "Assignment 13", title: "Hooks & Effects", desc: "Understand component mounting side-effects and cleanup lifecycles.", path: "/day13" },
+   { id: 14, day: "Assignment 14", title: "Hooks & Effects", desc: "Understand component mounting side-effects and cleanup lifecycles.", path: "/day14" }
 ];
 
 const Task = () => {
