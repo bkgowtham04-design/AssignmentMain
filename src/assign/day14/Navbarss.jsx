@@ -1,6 +1,9 @@
 import React from 'react'
 import Stundentsea from './Stundentsea'
 import { Link, Route, Routes } from 'react-router-dom'
+import Productla from './Productla'
+import Empsearch from './Empsearch'
+import Coursesser from './Coursesser'
 
 const Navbarss = () => {
   return (
@@ -10,31 +13,29 @@ const Navbarss = () => {
           TASK 1
         </Link>
 
-          {/* <Link to="/day13/cou" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">
+           <Link to="/day14/prodi" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">
           TASK 2
         </Link>
 
-           <Link to="/day13/tab" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">
+           <Link to="/day14/empies" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">
           TASK 3
         </Link>
 
-          <Link to="/day13/api" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">
+          <Link to="/day14/cou" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">
           TASK 4
         </Link>
         
-          <Link to="/day13/tim" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">
-          TASK 5
-        </Link> */}
+          
       </nav>
 
       <Routes>
         <Route path="" element={<Stundentsea />} />
         <Route path="searchst" element={<Stundentsea/>} />
-         {/* <Route path="cou" element={<Countup/>} />
-         <Route path="tab" element={<Tabshow/>} />
+          <Route path="prodi" element={<Productla/>} />
+          <Route path="empies" element={<Empsearch/>} />
 
-          <Route path="api" element={<Apiprocess/>} />
-            <Route path="tim" element={<Timer/>} /> */}
+          <Route path="cou" element={<Coursesser/>} />
+            
       </Routes>
     
     </>
