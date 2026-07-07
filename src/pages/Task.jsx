@@ -16,8 +16,10 @@ const tasks = [
   { id: 13, day: "Assignment 13", title: "Hooks & Effects", desc: "Understand component mounting side-effects and cleanup lifecycles.", path: "/day13" },
    { id: 14, day: "Assignment 14", title: "Hooks & Effects", desc: "Understand component mounting side-effects and cleanup lifecycles.", path: "/day14" },
     { id: 15, day: "Assignment 15", title: "Hooks & Effects", desc: "Understand component mounting side-effects and cleanup lifecycles.", path: "/day15" },
-     { id: 16, day: "Assignment 16", title: "Hooks & Effects", desc: "Understand component mounting side-effects and cleanup lifecycles.", path: "/day16" }
+     { id: 16, day: "Assignment 16", title: "Hooks & Effects", desc: "Understand component mounting side-effects and cleanup lifecycles.", path: "/day16" },
+       { id: 17, day: "Assignment 17", title: "Hooks & Effects", desc: "Understand component mounting side-effects and cleanup lifecycles.", path: "/day17" }
 ];
+
 
 
 const Task = () => {

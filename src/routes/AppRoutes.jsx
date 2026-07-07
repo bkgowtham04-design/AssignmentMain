@@ -54,6 +54,7 @@ import Practice5 from '../practice/practice5/Practice5';
 import Navbarss from '../assign/day14/Navbarss';
 import Navbarmm from '../assign/day15/Navbarmm';
 import Navbarto from '../assign/day16/Navbarto';
+import Navbarref from '../assign/day17/Navbarref';
 
 
 const AppRoutes = () => {
@@ -104,6 +105,7 @@ const AppRoutes = () => {
          <Route path='/day14/*' element={<Navbarss/>}/>
           <Route path='/day15/*' element={<Navbarmm/>}/>
           <Route path='/day16/*' element={<Navbarto/>}/>
+           <Route path='/day17/*' element={<Navbarref/>}/>
 
   </Routes>
 
