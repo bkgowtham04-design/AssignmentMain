@@ -55,6 +55,7 @@ import Navbarss from '../assign/day14/Navbarss';
 import Navbarmm from '../assign/day15/Navbarmm';
 import Navbarto from '../assign/day16/Navbarto';
 import Navbarref from '../assign/day17/Navbarref';
+import Navbarchi from '../assign/day18/Navbarchi';
 
 
 const AppRoutes = () => {
@@ -106,6 +107,7 @@ const AppRoutes = () => {
           <Route path='/day15/*' element={<Navbarmm/>}/>
           <Route path='/day16/*' element={<Navbarto/>}/>
            <Route path='/day17/*' element={<Navbarref/>}/>
+           <Route path='/day18/*' element={<Navbarchi/>}/>
 
   </Routes>
 
