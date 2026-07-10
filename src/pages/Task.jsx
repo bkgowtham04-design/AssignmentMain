@@ -19,7 +19,8 @@ const tasks = [
   { id: 16, day: "Assignment 16", title: "State CRUD with Search", desc: "Build a complete profile CRUD system featuring real-time searching and inline updates.", path: "/day16" },
   { id: 17, day: "Assignment 17", title: "useRef & DOM References", desc: "Directly access and manipulate DOM elements using useRef for resume building and scroll actions.", path: "/day17" },
   { id: 18, day: "Assignment 18", title: "Context API & Theme", desc: "Manage dynamic global state pipelines and user choices using Context API.", path: "/day18" },
-  { id: 19, day: "Assignment 19", title: "AuthContext & Protected Routes", desc: "Build secure authentication systems with custom Protected Routes using AuthContext.", path: "/day19" }
+  { id: 19, day: "Assignment 19", title: "AuthContext & Protected Routes", desc: "Build secure authentication systems with custom Protected Routes using AuthContext.", path: "/day19" },
+  { id: 20, day: "Assignment 20", title: "Custom Hooks", desc: "Build reusable, composable custom state hooks (useCounter, useToggle, useFeaching).", path: "/day20" }
 ];
 
 
