@@ -58,6 +58,7 @@ import Navbarref from '../assign/day17/Navbarref';
 import Navbarchi from '../assign/day18/Navbarchi';
 import Approu from '../assign/day19/routes/Approu';
 import Navbarg from '../assign/day20/Navbarg';
+import Navbarmemo from '../assign/day21/Navbarmemo';
 
 
 const AppRoutes = () => {
@@ -111,7 +112,8 @@ const AppRoutes = () => {
            <Route path='/day17/*' element={<Navbarref/>}/>
            <Route path='/day18/*' element={<Navbarchi/>}/>
            <Route path='/day19/*' element={<Approu/>}/>
-           <Route path='/day20/*' element={<Navbarg/>}/>
+            <Route path='/day20/*' element={<Navbarg/>}/>
+            <Route path='/day21/*' element={<Navbarmemo/>}/>
 
   </Routes>
 
