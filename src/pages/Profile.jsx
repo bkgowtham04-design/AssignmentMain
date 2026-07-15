@@ -32,7 +32,12 @@ const Profile = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5A2.25 2.25 0 012.25 17.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                 </svg>
               </span>
-              <span className="font-medium text-zinc-750">bkgowtham04@example.com</span>
+              <a 
+                href="mailto:bkgowtham04@gmail.com" 
+                className="font-medium text-zinc-700 hover:text-zinc-950 hover:underline transition-colors"
+              >
+                bkgowtham04@gmail.com
+              </a>
             </div>
 
             <div className="flex items-center gap-3">

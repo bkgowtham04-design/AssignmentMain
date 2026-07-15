@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const tasks = [
+export const tasks = [
   { id: 1, day: "Assignment 01", title: "Component Basics", desc: "Learn custom React component rendering structures.", path: "/day1" },
   { id: 2, day: "Assignment 02", title: "Props & Styling", desc: "Pass custom attributes and style reusable UI structures.", path: "/day2" },
   { id: 3, day: "Assignment 03", title: "Advanced Props", desc: "Deeper look at children mapping and conditional render pipelines.", path: "/day3" },
@@ -21,7 +21,8 @@ const tasks = [
   { id: 18, day: "Assignment 18", title: "Context API & Theme", desc: "Manage dynamic global state pipelines and user choices using Context API.", path: "/day18" },
   { id: 19, day: "Assignment 19", title: "AuthContext & Protected Routes", desc: "Build secure authentication systems with custom Protected Routes using AuthContext.", path: "/day19" },
   { id: 20, day: "Assignment 20", title: "Custom Hooks", desc: "Build reusable, composable custom state hooks (useCounter, useToggle, useFeaching).", path: "/day20" },
-  { id: 21, day: "Assignment 21", title: "useMemo Hook", desc: "Optimize component performance by caching complex calculations like sorting and searching using useMemo.", path: "/day21" }
+  { id: 21, day: "Assignment 21", title: "useMemo Hook", desc: "Optimize component performance by caching complex calculations like sorting and searching using useMemo.", path: "/day21" },
+  { id: 22, day: "Assignment 22", title: "useCallback Hook", desc: "Optimize child component rendering and callback references using useCallback and useMemo.", path: "/day22" }
 ];
 
 

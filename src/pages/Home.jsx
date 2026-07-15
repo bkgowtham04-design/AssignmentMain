@@ -1,14 +1,38 @@
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { tasks } from "./Task";
 
 const Home = () => {
   const nav = useNavigate();
   const userName = "Gowtham.B";
-  const userEmail = "bkgowtham04@example.com";
+  const userEmail = "bkgowtham04@gmail.com";
   const userRole = "Student & Full Stack Developer";
 
+  const [dateTime, setDateTime] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setDateTime(new Date());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const formattedDate = dateTime.toLocaleDateString("en-US", {
+    weekday: "short",
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+  
+  const formattedTime = dateTime.toLocaleTimeString("en-US", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  });
+
   const stats = [
-    { label: "Total Tasks", value: "10 Assignments", description: "Structured React learning modules" },
+    { label: "Total Tasks", value: `${tasks.length} Assignments`, description: "Structured React learning modules" },
     { label: "Completion Status", value: "In Progress", description: "Completing daily react labs" },
     { label: "Framework Version", value: "React 19 & Vite", description: "Modern React setup with SPA routing" }
   ];
@@ -40,7 +64,16 @@ const Home = () => {
               <div>
                 <h1 className="text-xl font-bold tracking-tight text-zinc-900">{userName}</h1>
                 <p className="text-zinc-550 text-sm">{userRole}</p>
-                <p className="text-zinc-400 text-xs mt-0.5">{userEmail}</p>
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-zinc-400 mt-1.5">
+                  <span>{userEmail}</span>
+                  <span className="hidden sm:inline text-zinc-200">•</span>
+                  <span className="font-bold text-zinc-700 bg-zinc-50 border border-zinc-200/60 rounded-md px-2 py-0.5 flex items-center gap-1">
+                    <svg className="w-3.5 h-3.5 text-zinc-400" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    {formattedDate} — {formattedTime}
+                  </span>
+                </div>
               </div>
             </div>
 
