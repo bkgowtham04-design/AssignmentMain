@@ -22,7 +22,8 @@ export const tasks = [
   { id: 19, day: "Assignment 19", title: "AuthContext & Protected Routes", desc: "Build secure authentication systems with custom Protected Routes using AuthContext.", path: "/day19" },
   { id: 20, day: "Assignment 20", title: "Custom Hooks", desc: "Build reusable, composable custom state hooks (useCounter, useToggle, useFeaching).", path: "/day20" },
   { id: 21, day: "Assignment 21", title: "useMemo Hook", desc: "Optimize component performance by caching complex calculations like sorting and searching using useMemo.", path: "/day21" },
-  { id: 22, day: "Assignment 22", title: "useCallback Hook", desc: "Optimize child component rendering and callback references using useCallback and useMemo.", path: "/day22" }
+  { id: 22, day: "Assignment 22", title: "useCallback Hook", desc: "Optimize child component rendering and callback references using useCallback and useMemo.", path: "/day22" },
+  { id: 23, day: "Assignment 23", title: "useReducer Hook", desc: "Manage complex state transitions and operations like a structured Todo List and dynamic counter using useReducer.", path: "/day23" }
 ];
 
 
