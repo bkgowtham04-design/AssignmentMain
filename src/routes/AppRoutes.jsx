@@ -61,6 +61,7 @@ import Navbarg from '../assign/day20/Navbarg';
 import Navbarmemo from '../assign/day21/Navbarmemo';
 import Navbars from '../assign/day22/Navbars';
 import Navbarrd from '../assign/day23/Navbar';
+import AppmainLazy from '../assign/day24/Appmain';
 
 
 const AppRoutes = () => {
@@ -118,6 +119,7 @@ const AppRoutes = () => {
             <Route path='/day21/*' element={<Navbarmemo/>}/>
             <Route path='/day22/*' element={<Navbars/>}/>
             <Route path='/day23/*' element={<Navbarrd/>}/>
+            <Route path='/day24/*' element={<AppmainLazy/>}/>
 
   </Routes>
 
